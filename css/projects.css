@@ -43,10 +43,10 @@ body {
 	transition: 0.2s ease-in-out;
 	border: none !important;
 }
-.cardRightDiv .card {
+.cardRight .card {
 	float: left;
 }
-.cardLeftDiv .card {
+.cardLeft .card {
 	float: right;
 }
 .projectList .card h5 {
