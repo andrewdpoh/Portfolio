@@ -1,0 +1,6 @@
+instagram.png, linkedin.png: https://www.flaticon.com/authors/pixel-perfect
+github.png: https://pixabay.com/users/sllmnht-15727080/
+sji_banner.png: https://www.sji.edu.sg/images/SJI-Logo_LookingFwdSince1852_horizontal(2014).png
+sp_banner.png: https://commons.wikimedia.org/wiki/File:Singapore_Polytechnic_logo.png
+
+videobg_sekiro.mp4: https://motionbgs.com/wolfs-journey-through-ashina
