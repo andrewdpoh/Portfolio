@@ -1,6 +1,63 @@
-
-
-/* carousel of top projects */
-
-/* other projects */
-
+body {
+	background: black;
+}
+.header {
+	height: 260px;
+	display: flex;
+}
+.header h1 {
+	font-family: "Major Mono Display", sans-serif;
+	color: white;
+	font-size: 130px;
+	margin: auto;
+	margin-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+	.header h1 {
+		font-size: 50px;
+	}
+}
+/* Carousel */
+.carouselDiv {
+	padding-bottom: 100px;
+}
+.carousel-item img{
+	margin: auto;
+	height: 550px;
+	min-width: 100vw;
+	object-fit:cover;
+	opacity: 60%;
+}
+/* Project list */
+.projectList {
+	padding-bottom: 100px;
+}
+.projectList .card {
+	margin: auto;
+	max-width: 700px;
+	background: rgb(253, 248, 233);
+	border: none !important;
+}
+.projectList .card:hover {
+	transform: translateY(-5px);
+	transition: 0.2s ease-in-out;
+	border: none !important;
+}
+.cardRightDiv .card {
+	float: left;
+}
+.cardLeftDiv .card {
+	float: right;
+}
+.projectList .card h5 {
+	font-weight: 300;
+	font-size: 28px;
+}
+.projectList .card p {
+	font-weight: 500;
+	font-size: 15px;
+}
+.projectList .card img {
+	height: 250px;
+	object-fit: cover;
+}

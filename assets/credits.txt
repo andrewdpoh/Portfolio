@@ -1,6 +1,14 @@
 instagram.png, linkedin.png: https://www.flaticon.com/authors/pixel-perfect
 github.png: https://pixabay.com/users/sllmnht-15727080/
+
+videobg_sekiro.mp4: https://motionbgs.com/wolfs-journey-through-ashina
+
 sji_banner.png: https://www.sji.edu.sg/images/SJI-Logo_LookingFwdSince1852_horizontal(2014).png
 sp_banner.png: https://commons.wikimedia.org/wiki/File:Singapore_Polytechnic_logo.png
 
-videobg_sekiro.mp4: https://motionbgs.com/wolfs-journey-through-ashina
+data_analysis_carousel.jpg: https://www.freepik.com/author/freepik
+exploit_retriever_carousel.jpg: https://www.freepik.com/author/kerfin7
+gamestore_website_carousel.jpg: https://www.pexels.com/photo/html-code-270366/
+
+silence.jpg: https://w0.peakpx.com/wallpaper/833/947/HD-wallpaper-shhh-silence.jpg
+malware.jpg: https://arcticwolf.com/wp-content/uploads/2021/10/malware-icon.jpg

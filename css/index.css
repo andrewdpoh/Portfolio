@@ -12,11 +12,24 @@
 	font-family: "Major Mono Display", serif;
 	font-weight: 700;
 	font-size: 130px;
-	display:inline-block;
+	display: inline-block;
+}
+.hero .heroHeaderTextContainer {
+	display: inline-block;
 }
 @media only screen and (max-width: 768px) {
-	.hero h1 {
+	.hero .heroHeader {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.hero .heroHeader h1 {
 		font-size: 70px;
+	}
+	.hero .heroHeader .heroHeaderSpace {
+		display: none;
+	}
+	.hero .heroHeaderTextContainer {
+		display: block;
 	}
 }
 .videobg {
@@ -33,7 +46,7 @@
 .education {
 	background: rgb(42, 46, 61);
 	justify-content: center;
-	padding-bottom: 200px;
+	padding-bottom: 100px;
 }
 
 .education h1 {
