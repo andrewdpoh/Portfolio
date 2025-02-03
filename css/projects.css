@@ -35,8 +35,16 @@ body {
 .projectList .card {
 	margin: auto;
 	max-width: 700px;
-	background: rgb(253, 248, 233);
+	background: rgb(255, 252, 244);
 	border: none !important;
+}
+@media only screen and (min-width: 768px) {
+	.projectList .card {
+		height: 250px;
+	}
+	.projectList .card > div {
+		height: 100%;
+	}
 }
 .projectList .card:hover {
 	transform: translateY(-5px);
@@ -58,6 +66,18 @@ body {
 	font-size: 15px;
 }
 .projectList .card img {
-	height: 250px;
-	object-fit: cover;
+	height: 150px;
+	/* object-fit: cover; */
+	margin: auto;
+}
+.projectList .cardImgDiv {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+/* To vertically center the images */
+.projectList .cardImgDiv .verticalAlignHelper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
